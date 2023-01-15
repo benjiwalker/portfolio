@@ -1,0 +1,103 @@
+:root {
+	--font-family: 'Lato', sans-serif;
+	--font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	--bg: #090a2b;
+	--font-size: 18px;
+	--color: #fff;
+	--header-color: #fff;
+	--brand-color: #3639f7;
+	--duration-100: 100ms;
+	--duration-300: 300ms;
+	--base-line-height: 1.6;
+}
+
+body {
+	background-color: var(--bg);
+	margin: 0;
+	font-family: var(--font-family);
+	font-size: var(--font-size);
+	color: var(--color);
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+	font-weight: bold;
+	color: var(--header-color);
+	line-height: var(--base-line-height);
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 1.6rem;
+}
+h3 {
+	font-size: 1.4rem;
+}
+
+p {
+	margin-bottom: 1rem;
+	line-height: var(--base-line-height);
+}
+
+a {
+	color: var(--color);
+	text-decoration: underline;
+	transition-duration: var(--duration-100);
+	cursor: pointer;
+}
+
+a:hover {
+	color: var(--brand-color);
+}
+
+button {
+	background: transparent;
+	cursor: pointer;
+}
+
+.gatsby,
+.react {
+	background-color: #663399;
+}
+
+.svelte {
+	background-color: #ff3e00;
+}
+.typescript {
+	background-color: #007acc;
+}
+
+.javascript {
+	background-color: #f0db4f;
+	color: #323330;
+}
+
+.graphql {
+	background-color: #e535ab;
+}
+
+.nodejs {
+	background-color: #3c873a;
+}
+
+.material-ui,
+.contentful,
+.tonejs {
+	background-color: white;
+	color: black;
+}
+
+.netlify {
+	background-color: #08b5a4;
+	color: black;
+}
+
+.firebase {
+	background-color: #f5820d;
+	color: black;
+}
