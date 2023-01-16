@@ -32,7 +32,7 @@
 			<p>{text}</p>
 			<dl>
 				{#each tech as t}
-					<dd class="{slugify(t, { lower: true, remove: /[*+~.()'"!:@]/g })})}">
+					<dd class={slugify(t, { lower: true, remove: /[*+~.()'"!:@]/g })}>
 						{t}
 					</dd>
 				{/each}
