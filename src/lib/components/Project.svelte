@@ -51,7 +51,10 @@
 	nav {
 		align-items: center;
 		display: flex;
-		gap: 0.5rem;
+	}
+
+	nav > *:not(:last-child) {
+		margin-right: 0.5rem;
 	}
 
 	section {
@@ -76,7 +79,10 @@
 	dl {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
+	}
+
+	dl > *:not(:last-child) {
+		margin-right: 0.5rem;
 	}
 
 	dd {
